@@ -1,0 +1,129 @@
+$paleBrown: #aaa;
+
+.main {
+    .container {
+        margin-top: 30px;
+        .login__main {
+            .login__inner {
+                .login__center {
+                    display: flex;
+                    .sign-in {
+                        width: 50%;
+                        .sign-in__intro {
+                            width: 300px;
+                            margin: auto;
+                            .span-sign-in {
+                                font-family: Brandon;
+                                font-size: 26px;
+                                text-transform: capitalize;
+                            }
+                            .span-required {
+                                font-size: 18px;
+                                font-family: Brandon;
+                                color: $paleBrown;
+                            }
+                            .form-sign-in {
+                                .sign-in__form {
+                                    .form-username {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-top: 20px;
+                                        span {
+                                            margin-top: 10px;
+                                            color: red;
+                                            font-family: Brandon;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                    .form-password {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-top: 20px;
+                                        margin-bottom: 20px;
+                                        span {
+                                            margin-top: 10px;
+                                            color: red;
+                                            font-family: Brandon;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                    .forgot-password {
+                                        margin-bottom: 20px;
+                                        width: 100%;
+                                        .forgot-password-center {
+                                            text-align: end;
+                                            .forgot {
+                                                span {
+                                                    font-family: brandon;
+                                                    color: black;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .sign-in-button {
+                                        .login-button {
+                                            border: none;
+                                            height: 50px;
+                                            width: 100%;
+                                            background-color: black;
+                                            span {
+                                                color: white;
+                                                font-size: 15px;
+                                                font-family: Brandon;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .register {
+                        width: 50%;
+                        .register__intro {
+                            width: 300px;
+                            margin: auto;
+                            .span-register {
+                                font-family: Brandon;
+                                font-size: 26px;
+                                text-transform: capitalize;
+                            }
+                            span {
+                                font-size: 0.8125rem;
+                                font-family: Brandon;
+                            }
+                            .create-account {
+                                margin-top: 20px;
+                                .button-create-account {
+                                    align-items: center;
+                                    display: flex;
+                                    height: 50px;
+                                    width: 100%;
+                                    background-color: black;
+                                    .button-register {
+                                        margin: auto;
+                                        .button-register-center:hover .MuiSvgIcon-root {
+                                            display: block;
+                                        }
+                                        .button-register-center {
+                                            display: flex;
+                                            span {
+                                                color: white;
+                                                font-size: 15px;
+                                            }
+                                            .MuiSvgIcon-root {
+                                                display: none;
+                                                color: white;
+                                                font-size: 15px;
+                                                margin-left: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

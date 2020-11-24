@@ -231,11 +231,11 @@ function Header() {
                 </Link>
                 <div className="login-center">
                   <div className="user-login">
-                    <Link className="link-menu" to="/home">
+                    <Link className="link-menu" to="/sign-in">
                       <span>sign in</span>
                     </Link>
                     <div className="between"></div>
-                    <Link className="link-menu" to="/home">
+                    <Link className="link-menu" to="/register">
                       <span>register</span>
                     </Link>
                   </div>

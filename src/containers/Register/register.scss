@@ -1,0 +1,121 @@
+$paleBrown: #aaa;
+
+.main {
+    .container {
+        .register__main {
+            width: 700px;
+            margin: auto;
+            .register__inner {
+                .register__center {
+                    .register {
+                        .register__intro {
+                            .span-register {
+                                font-family: Brandon;
+                                font-size: 26px;
+                                text-transform: capitalize;
+                            }
+                            .span-required {
+                                font-size: 18px;
+                                font-family: Brandon;
+                                color: $paleBrown;
+                            }
+                            .form-register {
+                                .register__form {
+                                    .name {
+                                        display: flex;
+                                        margin-top: 20px;
+                                        .first-name {
+                                            width: 50%;
+                                            display: flex;
+                                            flex-direction: column;
+                                            .error-input-first-name {
+                                                margin-top: 10px;
+                                                color: red;
+                                                font-family: Brandon;
+                                                font-size: 14px;
+                                            }
+                                            .MuiFormControl-root {
+                                                width: 300px;
+                                            }
+                                        }
+
+                                        .last-name {
+                                            width: 50%;
+                                            display: flex;
+                                            flex-direction: column;
+                                            .error-input-last-name {
+                                                margin-top: 10px;
+                                                margin-left: 50px;
+                                                color: red;
+                                                font-family: Brandon;
+                                                font-size: 14px;
+                                            }
+                                            .MuiFormControl-root {
+                                                width: 300px;
+                                                margin-left: 50px;
+                                            }
+                                        }
+                                    }
+                                    .select-input {
+                                        display: flex;
+                                        margin-top: 20px;
+                                        .select-input-mouth {
+                                            width: 50%;
+                                            .MuiFormControl-root {
+                                                width: 300px;
+                                            }
+                                        }
+                                        .select-input-day {
+                                            width: 50%;
+                                            .MuiFormControl-root {
+                                                width: 300px;
+                                                margin-left: 50px;
+                                            }
+                                        }
+                                    }
+                                    .form-username {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-top: 20px;
+                                        .error-input-email {
+                                            margin-top: 10px;
+                                            color: red;
+                                            font-family: Brandon;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                    .form-password {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin-top: 20px;
+                                        .error-input-password {
+                                            margin-top: 10px;
+                                            color: red;
+                                            font-family: Brandon;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                    .register-button {
+                                        margin-top: 20px;
+                                        .register__button {
+                                            border: none;
+                                            height: 50px;
+                                            width: 300px;
+                                            background-color: black;
+                                            margin: auto;
+                                            span {
+                                                color: white;
+                                                font-size: 15px;
+                                                font-family: Brandon;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

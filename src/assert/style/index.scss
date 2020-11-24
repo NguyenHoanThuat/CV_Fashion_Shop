@@ -12,3 +12,23 @@
   src: url(../../fonts/DancingScript-VariableFont_wght.ttf);
   font-family: Dancing;
 }
+
+@font-face {
+  src: url(../../fonts/Castoro-Italic.ttf);
+  font-family: Brandon;
+}
+
+// $paleBrown: #aaa;
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+// @import "../../containers/Sign_In/signIn.scss";
